@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylehome.css">
+    <link rel="shorcut icon" href="./img/Logo/N.png"> 
+    <title>NEXT</title>
+    <script src="https://kit.fontawesome.com/643d9eacba.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta name="description" content="NEXT, en la pagina se encontrará información sobre dispositivos móviles, laptops, noticias destacadas sobre tecnología, recomendaciones, etc.">
+    <meta name="keywords" content="NEXT es una pagina sobre tecnologia, queremos que vayas a la vanguardia sobre la tecnologia y la proxima vez que compres un dispositivo inteligente tengas la idea de cual es la mejor opcion.">
+    
+</head>
+<body>
+    <!-- Cabecera, Menu navegacion -->
+    <header id="cabecera"> 
+        <div id="navegacion">
+            <a href="./Home.html">
+                <img id="logo" src="./img/Logo/NEXT.png" alt="logo">
+            </a>
+            <!-- Codigo menu hamburguesa para movil -->
+            <input type="checkbox"  id="btn-menu">
+            <label for="btn-menu" class="fa-solid fa-bars" id="movil"></label>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="./Home.html">HOME</a></li>
+                    <li><a href="./noti_destacadas.html">DESTACADOS</a></li>
+                    <li><a href="./Reseñas.html">RESEÑAS</a></li>
+                    <li><a href="./Recomendacione.html">RECOMENDACIONES</a></li>
+                    <li><a href="./About.html">SOBRE</a></li>
+                </ul>
+            </nav>   
+        </div>
+    </header>
+
+    <!-- HOME -->
+    <div class="container-fluid ">
+        <div class="row d-flex text-lg-center text-mg-center align-items-center">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner banner">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                  <div class="carousel-item active">
+                    <img src="./img/Home/steamdeckDESENFOCADO 1.png" class="d-block imgfondo" alt="steamdeck">
+                    <div class="carousel-caption d-flex align-items-center cuadro">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next flechaizquierda" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <div class="col-lg-6">
+                            <h2><span class="tit1">STEAM</span> <span class="tit2">DECK</span></h2>
+                            <p>
+                                Tu nueva PC Gamer portatil. Steam Deck lleva los juegos y las características
+                                de Steam que te encantan a un factor de forma potente y conveniente que puedes
+                                llevar a donde vayas.
+                            </p>
+                            <a class="btn btn-primary" href="/Proyecto-Final/NoticiasDestacadas/noticia2.html" role="button">Leer más</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="./img/Home/steamdeckWEB 1.png" class="img-fluid" alt="steamdeck">
+                        </div>
+                        
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/Home/procesadorDESENFOCADO.png" class="d-block imgfondo" alt="segundaimg">
+                    <div class="carousel-caption d-flex align-items-center cuadro">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <div class="col-lg-6 col-sm-12">
+                            <h2><span class="tit1">¿MEJOR</span> <span class="tit2">PROCESADOR?</span></h2>
+                            <p>
+                                Damos tips para escojas la mejor opcion de movil/laptop, lo que mejor se adapte
+                                a tu dia a dia, a tus exigencias ya sean gamer, trabajo o estudio.
+                            </p>
+                            <a class="btn btn-primary" href="./Recomendacione.html" role="button">Leer más</a>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <img src="./img/Home/procesador (1).jpg.png" class="img-fluid" alt="procesador">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/Home/amazonalexa.jpg" class="d-block imgfondo" alt="terceraimg">
+                    <div class="carousel-caption d-flex align-items-center cuadro">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <div class="col-lg-6 col-sm-12">
+                            <h2><span class="tit1">Amazom</span> <span class="tit2">Alexa</span></h2>
+                            <p>
+                                Amazon Alexa por fin ha llegado, Amazon trae 
+                                a nuestro país uno de los caballos de batalla con los que se está enfrentando 
+                                cara a cara a empresas como Apple o Google. Aqui te explicaremos qué es Alexa y qué es lo que 
+                                puede hacer por ti.
+                            </p>
+                            <a class="btn btn-primary" href="./Reseñas/pag1.html" role="button">Leer más</a>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <img src="./img/Home/amazonalexapequeno.jpg" class="img-fluid" alt="amazon">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <!-- SECCION PART1  -->
+    <section class="SeccionPart1" id="PART1">
+        <div class="contenido">
+            <h1><span class="tit1">¿QUE CONTIENE LA </span> <span class="tit2">PAGINA?</span></h1>
+        </div>
+
+        <a href="./noti_destacadas.html" class="text-decoration-none">
+            <div class="contenedor">
+                <h3>Noticias Destacadas</h3>
+                <div class="fila">
+                    <p>
+                        Noticias sobre nuevos lanzamientos, dispositivos del momento ya sea de manera positiva o negativa, importancia de la tecnologia en el mercado ya sea 
+                        software o hardware.
+                    </p>
+                    <img src="./img/Secciones/sinfondo DEST.png" alt="img1">
+                </div>
+            </div>
+        </a>
+
+        <a href="./Reseñas.html" class="text-decoration-none">
+            <div class="contenedor">
+                    <h3>Reseñas</h3>
+                    <div class="fila">
+                        <p>
+                            Opiniones populares sobre hardaware y software que debemos tener 
+                            en cuenta, ya sea por lanzamiento o por calidad-precio entre dispositivos.
+                        </p>
+                        <img src="./img/Secciones/ReseñaWEB 1.png" alt="img2">
+                    </div>
+            </div>
+        </a>
+
+        <a href="./Recomendacione.html" class="text-decoration-none">
+            <div class="contenedor">
+                <h3>Recomendaciones</h3>
+                <div class="fila">
+                    <p>
+                        Daremos recomendaciones desde nuestro Punto de vista, datos sobre rendimiento, 
+                        durabilidad y calidad precio que se puede obtener en el mercado.
+                    </p>
+                    <img src="./img/Secciones/recomendacionWEB 1.png" alt="img3">
+                </div>
+            </div>
+        </a>
+        
+        <a href="./About.html" class="text-decoration-none">
+            <div class="contenedor">
+                    <h3>Acerca de Nosotros</h3>
+                    <div class="fila">
+                        <p>
+                            Informacion sobre nuestro grupo, cada integrante que ha desarrollado esta pagina web, 
+                            redes sociales ya sea para contrato sobre paginas o individuales.
+                        </p>
+                        <img src="./img/Secciones/aboutusWEB 1.png" alt="img4">
+                    </div>
+            </div>
+        </a>
+    </section>
+
+    <!-- Copyright -->
+    <section class="Copyright" id="CopyR">
+        <div id="copy">
+            <a href="#HOME" class="text-decoration-none">
+                <img id="logo" src="./img/Logo/NEXTblanco.png" alt="logo">
+            </a>
+            <nav class="texto">
+                <ul>
+                    <li><a>2022</a></li>
+                    <li><a>Universidad de Sonsonate</a></li>
+                    <li><a>Diseño web</a></li>
+                </ul>
+            </nav>   
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

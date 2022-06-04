@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXT - Noticias Destacadas</title>
+    <link rel="stylesheet" href="./noti_destacadas.css">
+    <link rel="shorcut icon" href="./img/Logo/N.png"> 
+    <script src="https://kit.fontawesome.com/643d9eacba.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- Cabecera, Menu navegacion -->
+    <header id="cabecera">
+        <div id="navegacion">
+            <a href="./Home.html">
+                <img id="logo" src="./img/Logo/NEXT.png" alt="logo">
+            </a>
+            <!-- Codigo menu hamburguesa para movil -->
+            <input type="checkbox"  id="btn-menu">
+            <label for="btn-menu" class="fa-solid fa-bars" id="movil"></label>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="./Home.html">HOME</a></li>
+                    <li><a href="./noti_destacadas.html">DESTACADOS</a></li>
+                    <li><a href="./Reseñas.html">RESEÑAS</a></li>
+                    <li><a href="./Recomendacione.html">RECOMENDACIONES</a></li>
+                    <li><a href="./About.html">SOBRE</a></li>
+                </ul>
+            </nav>   
+        </div>
+    </header>
+
+    <!-- NOTICIAS -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators ">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner banner ">
+          <div class="carousel-item active imagen">
+            <img src="./img/Destacado/mac studio (1).jpg" class=" d-block imgfondo" alt="...">
+            <div class="carousel-caption d-md-block cuadro">
+              <h2>MAC STUDIO</h2>
+              <p>Es una computadora de escritorio MAC. Diseño increiblemente compacto, minimalista pero con
+                  rendimiento extraordinario y amplia conectividad. Además, puedes elegir si la quieres con el superrápido chip M1 Max o el nuevo M1 Ultra, el chip más potente jamás visto en una
+                  computadora personal.
+              </p>
+              <a class="btn btn-primary" href="/Proyecto-Final/NoticiasDestacadas/noticia1.html" role="button">Leer más</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../Proyecto-Final/img/Destacado/steamdeck (1).jpg" class="d-block imgfondo alt="...">
+            <div class="carousel-caption d-md-block cuadro">
+              <h2>STEAM DECK</h2>
+              <p>Tu nueva PC Gamer portatil. Steam Deck lleva los juegos y las características
+                de Steam que te encantan a un factor de forma potente y conveniente que puedes
+                llevar a donde vayas.
+              </p>
+              <a class="btn btn-primary" href="./NoticiasDestacadas/noticia2.html" role="button">Leer más</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Destacado/3090ti (1).jpg" class="d-block imgfondo" alt="...">
+            <div class="carousel-caption d-md-block cuadro">
+              <h2>NVIDIA RTX 3090 TI</h2>
+              <p>Son GPU grandes y feroces (BFGPU) con un rendimiento de clase bestial.
+                   Además, cuentan con una asombrosa 
+                 memoria G6X de 24 GB, todo para brindar la mejor experiencia para jugadores y creadores.
+              </p>
+              <a class="btn btn-primary" href="./NoticiasDestacadas/noticia3.html" role="button">Leer más</a>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- Copyright -->
+    <section class="Copyright" id="CopyR">
+        <div id="copy">
+            <a href="/Proyecto-Final/Home.html" class="text-decoration-none">
+                <img id="logo" src="./img/Logo/NEXTblanco.png" alt="logo">
+            </a>
+            
+            <nav class="texto">
+                <ul>
+                    <li><a>2022</a></li>
+                    <li><a>Universidad de Sonsonate</a></li>
+                    <li><a>Diseño web</a></li>
+                </ul>
+            </nav>   
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
